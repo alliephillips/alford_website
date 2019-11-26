@@ -3,10 +3,8 @@ html{
 }
 
 body{
-  font-family: "Times New Roman";
   margin: 0;
   padding: 0;
-  font-size: 16px;
 }
 
 .courses{
@@ -61,4 +59,30 @@ body{
 img,
 figure {
   max-width: 100%;
+}
+
+
+main{
+  margin-bottom: 30px;
+  height: 100vh;
+}
+
+h1 {
+  font-family: 'Alata', sans-serif;
+  margin: 20px 10px;
+  font-size: 45px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin: 20px 10px;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 10px;
+  font-size: 20px;
+  font-weight: 300;
 }
