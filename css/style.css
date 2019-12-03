@@ -66,6 +66,7 @@ nav{
   flex-wrap: wrap;
   padding-top: 10px;
   padding-bottom: 10px;
+  top:0;
 }
 
 nav ul{
