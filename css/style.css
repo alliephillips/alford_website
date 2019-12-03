@@ -130,7 +130,7 @@ nav a:visited{
 }
 
 #footer_nav {
-  position: relative;
+  position: absolute;
   bottom: 0;
 }
 
