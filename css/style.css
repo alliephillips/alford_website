@@ -349,34 +349,6 @@ figure {
 
 /* START RESEARCH PAGE */
 
-  h1 {
-    font-family: 'Alata', sans-serif;
-    margin: 20px 10px;
-    font-size: 45px;
-  }
-  
-/*   h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    margin: 20px 10px;
-    font-size: 30px;
-  }
-
-  h3{
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 600;
-      font-size: 20px;
-  }
-  
-  p {
-    font-family: 'Montserrat', sans-serif;
-    margin: 20px 10px;
-    font-size: 20px;
-    font-weight: 300;
-  }
-
- */
-
   .research a:visited{
     color: #24526A;
   }
