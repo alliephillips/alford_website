@@ -385,10 +385,11 @@ figure {
     border: 1px solid white;
     perspective: 100px;
   }
-
+/* attempt to change font size on flip card - allie 
 .active-research .flip-card h2{
     font-size: 15px;
 }
+*/
 
   .active-research .flip-card-inner{
     position: relative;
@@ -443,9 +444,11 @@ figure {
     perspective: 100px;
   }
 
+/* attempt to change font size in flip card - allie  
 .past-research .flip-card h2{
     font-size: 15px;
-}
+}*/
+
 
   .past-research .flip-card-inner{
     position: relative;
