@@ -5,124 +5,8 @@ html{
 body{
   margin: 0;
   padding: 0;
+  font-size: 20px;
 }
-
-.courses{
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-content: center;
-  padding-bottom: 6%;
-  margin: 2% 50%;
-  grid-gap: 30px;
-}
- .courses img{
-   width: 100%;
-   height: 100%;
- }
-
- .courses .flip-card{
-   background-color: transparent;
-   width: 300px;
-   height: 200px;
-   border: 1px solid black;
-   perspective: 100px;
- }
-
- .courses .flip-card-inner{
-   position: relative;
-   width: 100%;
-   height: 100%;
-   text-align: center;
-   transition: transform 0.8s;
-   transform-style: preserve-3d;
- }
-
- .courses .flip-card:hover .flip-card-inner{
-   transform: rotateY(180deg);
- }
-
- .courses .flip-card:focus .flip-card-inner{
-   transform: rotateY(180deg);
- }
-
- .courses .flip-card-front, .flip-card-back{
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   -webkit-backface-visibility: hidden;
- }
-
-.courses .flip-card-front{
-  background-color: #bbb;
-  color: black;
-}
-
-.courses .flip-card-back{
-  background-color: black;
-  color: white;
-  transform: rotateY(180deg);
-}
-
-.courses .flip-card-back{
-  overflow: auto;
-}
-
-.scale-up-hor-center {
-  text-align: center;
-  font-size: 30px;
-	-webkit-animation: scale-up-hor-center .7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-hor-center .7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
-.hero {
-    /* Sizing */
-    width: 100vw;
-    height: 100vh;
-    /* Flexbox stuff */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2)), url("../images/waves.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.hero h1 {
-    /* Text styles */
-    font-size: 3em;
-    color: white;
-    text-align: center;
-}
-
-#hero_img img{
-  width: 20%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.arrow {
-  width: 49px;
-  height: 49px;
-  position: absolute;
-  bottom: 30px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  padding-top: 500px;
-  z-index: 9;
-  border-radius: 50%;
-  -webkit-transition: background-color 0.25s ease-in-out;
-  transition: background-color 0.25s ease-in-out;
-}
-img,
-figure {
-  max-width: 100%;
-}
-
 
 main{
   margin-bottom: 30px;
@@ -149,35 +33,15 @@ p {
   font-weight: 300;
 }
 
-
-// Hannah's stylesheet below -- want to talk to coordinate :)
-
-html{
-  scroll-behavior: smooth;
-}
-
-body{
-  background-color: white;
-  font-size: 18px;
-  /* font-family: 'Roboto', sans-serif; */
-}
-
-.page_container{
-  /* position: relative;
-  min-height: 100vh; */
-}
-
-.content_wrap{
-  /* padding-top: 60px;    /* Footer height *
-  padding-bottom: 60px;    /* Footer height * */
-}
+/* Hannah's stylesheet below -- want to talk to coordinate :) */
 
 .header {
   display: block;
-  position: absolute;
+  position: sticky;
   top: 0;
   width: 100%;
-  height: 60px;            /* Footer height */
+  height: 60px;
+  background: #24526A;
 }
 
 #header_logo{
@@ -261,7 +125,62 @@ nav ul li a.active-page{
 
 /* BEGINNING: HERO PAGE */
 
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2)), url("../images/waves.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+#hero_img img{
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.arrow {
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 500px;
+  z-index: 9;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+img,
+figure {
+  max-width: 100%;
+}
+
 /* END: HERO PAGE */
+
+/* BEGINNING: CV.HTML */
+
+******************
+
+/* END: CV.HTML */
 
 /* BEGINNING: LINKS.HTML */
 
@@ -351,3 +270,79 @@ h1 {
 }
 
 /* END: LINKS.HTML */
+
+/* BEGINNING: RESEARCH.HTML */
+
+******************
+
+/* END: RESEARCH.HTML */
+
+/* BEGINNING: TEACHING PAGE */
+
+.courses{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 6%;
+  margin: 2%;
+}
+ .courses img{
+   width: 100%;
+   height: 100%;
+ }
+
+ .courses .flip-card{
+   background-color: transparent;
+   width: 300px;
+   height: 200px;
+   border: 1px solid black;
+   perspective: 100px;
+ }
+
+ .courses .flip-card-inner{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   transition: transform 0.8s;
+   transform-style: preserve-3d;
+ }
+
+ .courses .flip-card:hover .flip-card-inner{
+   transform: rotateY(180deg);
+ }
+
+ .courses .flip-card:focus .flip-card-inner{
+   transform: rotateY(180deg);
+ }
+
+ .courses .flip-card-front, .flip-card-back{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   -webkit-backface-visibility: hidden;
+ }
+
+.courses .flip-card-ffront{
+  background-color: #bbb;
+  color: black;
+}
+
+.gallery .flip-card-back{
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.courses .flip-card-back{
+  overflow: auto;
+}
+
+.scale-up-hor-center {
+  text-align: center;
+  font-size: 30px;
+	-webkit-animation: scale-up-hor-center .7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-center .7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/* END: TEACHING PAGE */
