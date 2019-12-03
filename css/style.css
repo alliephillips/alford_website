@@ -11,6 +11,8 @@ body{
 main{
   margin-top: 50px;
   margin-bottom: 50px;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 h1 {
