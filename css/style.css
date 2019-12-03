@@ -105,17 +105,17 @@ nav a .active {
   left: 0;
   padding: 6px;
   position: absolute;
-  top: -45px;
+  top: -40px     
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
+  font-size: 18px;
 }
 
 .skip a:focus{
   position: absolute;
-  top: 0;
+  top:0px;
   transition: auto;
-  color: white;
 }
 
 nav ul li a.active-page{
