@@ -332,12 +332,12 @@ figure {
  }
 
 .courses .flip-card-front{
-  background-color: #bbb;
-  color: black;
+  background-color: #24526A;
+  color: white;
 }
 
 .courses .flip-card-back{
-  background-color: black;
+  background-color: #7AACBF;
   color: white;
   transform: rotateY(180deg);
 }
