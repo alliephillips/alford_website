@@ -123,10 +123,6 @@ nav a:visited{
   bottom: 0;
 }
 
-a:visited{
-  color: #24526A;
-}
-
 /* BEGINNING: HERO PAGE */
 
 .hero {
@@ -275,9 +271,9 @@ figure {
   display: inline-block;
 }
 
-/* .links_container a:visited{
+.links_container a:visited{
   color: #24526A;
-} */
+}
 
 /* END: LINKS.HTML */
 
@@ -438,6 +434,10 @@ figure {
     color: white;
     transform: rotateY(180deg);
   }
+
+.active-research .flip-card-back a:visited{
+  color: #24526A;
+}
 
 /* PAST RESEARCH SECTION */
   .past-research{
