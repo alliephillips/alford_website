@@ -361,3 +361,154 @@ figure {
 }
 
 /* END: TEACHING PAGE */
+
+/* START RESEARCH PAGE */
+html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-family: 'Alata', sans-serif;
+    margin: 20px 10px;
+    font-size: 45px;
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 20px 10px;
+    font-size: 30px;
+  }
+
+  h3{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+  }
+  
+  p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 10px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .scale-up-hor-center {
+    text-align: center;
+    font-size: 30px;
+      -webkit-animation: scale-up-hor-center .7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+              animation: scale-up-hor-center .7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+  
+  /* ACTIVE RESEARCH SECTION */
+  .active-research{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 6%;
+    margin: 2%;
+  }
+
+  .active-research .flip-card{
+    background-color: transparent;
+    width: 800px;
+    height: 300px;
+    border: 1px solid white;
+    perspective: 100px;
+  }
+ 
+  .active-research .flip-card-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+  }
+  .active-research .flip-card:hover .flip-card-inner{
+    transform: translateX(-100%) rotateY(-180deg);
+  }
+ 
+  .active-research .flip-card:focus .flip-card-inner{
+    transform: rotateY(180deg);
+  }
+ 
+  .active-research .flip-card-front, .flip-card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+  }
+ 
+ .active-research .flip-card-front{
+   background-color: #24526A;
+   color: white;
+ }
+
+ .active-research .flip-card-back{
+    overflow: auto;
+    background-color: #7AACBF;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+/* PAST RESEARCH SECTION */
+  .past-research{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 6%;
+    margin: 2%;
+}
+
+.past-research .flip-card{
+    background-color: transparent;
+    width: 800px;
+    height: 300px;
+    border: 1px solid white;
+    perspective: 100px;
+  }
+ 
+  .past-research .flip-card-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+  }
+
+  .past-research .flip-card:hover .flip-card-inner{
+    transform: translateX(-100%) rotateY(-180deg);
+  }
+ 
+  .past-research .flip-card:focus .flip-card-inner{
+    transform: rotateY(180deg);
+  }
+ 
+  .past-research .flip-card-front, .flip-card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+  }
+ 
+ .past-research .flip-card-front{
+   background-color: #24526A;
+   color: white;
+ }
+
+ .past-research .flip-card-back{
+    overflow: auto;
+    background-color: #7AACBF;
+    color: white;
+    transform: rotateY(180deg);
+  }
+/* END RESEARCH PAGE */
