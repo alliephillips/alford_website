@@ -57,6 +57,7 @@ nav{
 }
 
 #header_nav{
+  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
 }
