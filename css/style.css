@@ -52,7 +52,7 @@ p {
 nav{
   background-color: #24526A;
   height: 50px;
-  position: relative;
+  position: absolute;
   top: 0;
 }
 
