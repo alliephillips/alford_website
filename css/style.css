@@ -286,7 +286,7 @@ figure {
   grid-template-columns: 1fr;
   justify-content: center;
   padding-bottom: 6%;
-  margin: 2% 50%;
+  margin: 50%;
   grid-gap: 30px;
 }
 
