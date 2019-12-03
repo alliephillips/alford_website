@@ -69,7 +69,7 @@ nav{
   align-items: flex-end;
   flex-wrap: wrap;
   padding-top: 0px;
-  padding-bottom: 1px;
+  padding-bottom: 0px;
 }
 
 nav ul{
