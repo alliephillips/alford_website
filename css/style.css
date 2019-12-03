@@ -267,6 +267,8 @@ figure {
   font-family: 'Montserrat', sans-serif;
   padding-left: 10vw;
   padding-right: 10vw;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .links_container div {
