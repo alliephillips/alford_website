@@ -120,10 +120,10 @@ nav a .active {
 }
 
 .skip a:focus{
-  position: absolute;
-  top: 0;
-  transition: auto;
-  color: white;
+/*   position: absolute; */
+  top: 0px;
+/*   transition: auto; */
+/*   color: white; */
 }
 
 nav ul li a.active-page{
