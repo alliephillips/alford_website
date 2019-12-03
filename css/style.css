@@ -18,7 +18,7 @@ main{
 .landing_page{
   padding-left: 0vw;
   padding-right: 0vw;
-  margin-top: 0px;
+  margin-top: -20px;
 }
 
 h1 {
@@ -52,12 +52,11 @@ p {
 nav{
   background-color: #24526A;
   height: 50px;
-  position: relative;
-  top: 0;
 }
 
 #header_nav{
-  position: relative;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
   top: 0;
 }
 
@@ -66,6 +65,8 @@ nav{
   justify-content: space-between;
   align-items: flex-end;
   flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 nav ul{
@@ -78,7 +79,6 @@ nav li{
   text-align: center;
   flex: 1;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 10px;
 }
 
 nav a{
@@ -104,20 +104,18 @@ nav a .active {
   background: white;
   left: 0;
   padding: 6px;
-  position: absolute;
-  top: -40px     
+  position: relative;
+  top: -45px;
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
-  font-size: 18px;
-  color: black;
 }
 
 .skip a:focus{
   position: absolute;
-  top:0px;
+  top: 0;
   transition: auto;
-  color: black;
+  color: white;
 }
 
 nav ul li a.active-page{
@@ -130,7 +128,7 @@ nav a:visited{
 }
 
 #footer_nav {
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 
