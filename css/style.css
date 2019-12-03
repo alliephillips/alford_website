@@ -8,11 +8,12 @@ body{
 }
 
 .courses{
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr;
   justify-content: center;
   padding-bottom: 6%;
-  margin: 2%;
+  margin: 2% 50%;
+  grid-gap: 30px;
 }
  .courses img{
    width: 100%;
@@ -51,12 +52,12 @@ body{
    -webkit-backface-visibility: hidden;
  }
 
-.courses .flip-card-ffront{
+.courses .flip-card-front{
   background-color: #bbb;
   color: black;
 }
 
-.gallery .flip-card-back{
+.courses .flip-card-back{
   background-color: black;
   color: white;
   transform: rotateY(180deg);
