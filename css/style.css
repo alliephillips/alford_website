@@ -114,13 +114,17 @@ nav ul li a.active-page{
   color: white;
 }
 
-a:visited{
+nav a:visited{
   color: white;
 }
 
 #footer_nav {
   position: relative;
   bottom: 0;
+}
+
+a:visited{
+  color: #24526A;
 }
 
 /* BEGINNING: HERO PAGE */
@@ -182,11 +186,6 @@ figure {
 /* END: CV.HTML */
 
 /* BEGINNING: LINKS.HTML */
-
-/* #main{
-  padding-left: 10vw;
-  padding-right: 10vw;
-} */
 
 .links {
   text-align: center;
@@ -276,9 +275,9 @@ figure {
   display: inline-block;
 }
 
-.links_container a:visited{
+/* .links_container a:visited{
   color: #24526A;
-}
+} */
 
 /* END: LINKS.HTML */
 
