@@ -386,6 +386,10 @@ figure {
     perspective: 100px;
   }
 
+.active-research .flip-card h2{
+    font-size: 20px;
+}
+
   .active-research .flip-card-inner{
     position: relative;
     width: 100%;
@@ -438,6 +442,10 @@ figure {
     border: 1px solid white;
     perspective: 100px;
   }
+
+.past-research .flip-card h2{
+    font-size: 20px;
+}
 
   .past-research .flip-card-inner{
     position: relative;
