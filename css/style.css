@@ -282,12 +282,14 @@ figure {
 /* BEGINNING: TEACHING PAGE */
 
 .courses{
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr;
   justify-content: center;
   padding-bottom: 6%;
-  margin: 2%;
+  margin: 2% 50%;
+  grid-gap: 30px;
 }
+
  .courses img{
    width: 100%;
    height: 100%;
@@ -297,9 +299,12 @@ figure {
    background-color: transparent;
    width: 300px;
    height: 200px;
-   border: 1px solid black;
    perspective: 100px;
  }
+
+/* .courses .flip-card #caption{
+  font-size: 10px;
+} */
 
  .courses .flip-card-inner{
    position: relative;
@@ -308,14 +313,15 @@ figure {
    text-align: center;
    transition: transform 0.8s;
    transform-style: preserve-3d;
+   transform-origin: center right;
  }
 
  .courses .flip-card:hover .flip-card-inner{
-   transform: rotateY(180deg);
+   transform: translateX(-100%) rotateY(-180deg);
  }
 
  .courses .flip-card:focus .flip-card-inner{
-   transform: rotateY(180deg);
+   transform: translateX(-100%) rotateY(-180deg);
  }
 
  .courses .flip-card-front, .flip-card-back{
@@ -325,12 +331,12 @@ figure {
    -webkit-backface-visibility: hidden;
  }
 
-.courses .flip-card-ffront{
+.courses .flip-card-front{
   background-color: #bbb;
   color: black;
 }
 
-.gallery .flip-card-back{
+.courses .flip-card-back{
   background-color: black;
   color: white;
   transform: rotateY(180deg);
@@ -339,6 +345,7 @@ figure {
 .courses .flip-card-back{
   overflow: auto;
 }
+
 
 .scale-up-hor-center {
   text-align: center;
