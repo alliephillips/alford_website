@@ -9,7 +9,7 @@ body{
 }
 
 main{
-  margin-top: 50px;
+/*   margin-top: 50px; */
   margin-bottom: 50px;
 }
 
@@ -282,12 +282,6 @@ figure {
 
 /* END: LINKS.HTML */
 
-/* BEGINNING: RESEARCH.HTML */
-
-******************
-
-/* END: RESEARCH.HTML */
-
 /* BEGINNING: TEACHING PAGE */
 
 .courses{
@@ -359,14 +353,6 @@ figure {
 /* END: TEACHING PAGE */
 
 /* START RESEARCH PAGE */
-html{
-    scroll-behavior: smooth;
-  }
-  
-  body{
-    margin: 0;
-    padding: 0;
-  }
 
   h1 {
     font-family: 'Alata', sans-serif;
