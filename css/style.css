@@ -52,14 +52,12 @@ p {
 nav{
   background-color: #24526A;
   height: 50px;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
+  position: absolute;
   top: 0;
 }
 
 #header_nav{
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
+  position: absolute;
   top: 0;
 }
 
@@ -73,7 +71,6 @@ nav{
 nav ul{
   list-style-type: none;
   overflow: hidden;
-  margin: 0px;	
 }
 
 nav li{
@@ -106,7 +103,7 @@ nav a .active {
   background: white;
   left: 0;
   padding: 6px;
-  position: relative;
+  position: absolute;
   top: -45px;
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
