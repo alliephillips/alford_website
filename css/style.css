@@ -295,6 +295,13 @@ figure {
    height: 100%;
  }
 
+.courses a{
+   color: white;
+ }
+
+ .courses a:visited{
+   color: white;
+ }
  .courses .flip-card{
    background-color: transparent;
    width: 450px;
