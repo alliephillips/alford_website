@@ -355,7 +355,7 @@ figure {
     font-size: 45px;
   }
   
-  h2 {
+/*   h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     margin: 20px 10px;
@@ -373,6 +373,12 @@ figure {
     margin: 20px 10px;
     font-size: 20px;
     font-weight: 300;
+  }
+
+ */
+
+  .research a:visited{
+    color: #24526A;
   }
 
   .scale-up-hor-center {
@@ -434,10 +440,6 @@ figure {
     color: white;
     transform: rotateY(180deg);
   }
-
-.active-research .flip-card-back a:visited{
-  color: #24526A;
-}
 
 /* PAST RESEARCH SECTION */
   .past-research{
