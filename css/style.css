@@ -103,7 +103,7 @@ nav a .active {
   left: 0;
   padding: 6px;
   position: relative;
-  top: -40px;
+  top: -45px;
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
