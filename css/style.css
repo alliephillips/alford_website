@@ -70,6 +70,7 @@ nav{
 
 .nav_container{
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
   flex-wrap: wrap;
@@ -90,11 +91,10 @@ nav li{
 }
 
 nav a{
-  color: black;
   display: inline-block;
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 2vw;
   color: white;
 }
 
@@ -206,6 +206,7 @@ figure {
 
 .flex_links_btns {
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -537,6 +538,33 @@ figure {
 /* END RESEARCH PAGE */
 
 /* MEDIA QUERIES */
+
+/* MOBILE VIEW */
+
+@media all and (max-width: 480px) {
+  .nav_container > li {
+    flex-basis: 100%;
+  }
+
+  nav a{
+    font-size: 1em;
+    line-height: 2;
+  }
+
+  .flex_links_btns {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn {
+    display: block;
+    margin: 20px 10px;
+    width: 80vw;
+  }
+
+/* DESKTOP VIEW */
+
 @media screen and (min-width: 800px){
   .courses{
     grid-template-columns: 1fr 1fr;
