@@ -561,6 +561,12 @@ grid-gap: 10px;
     color: white;
     transform: rotateY(180deg);
   }
+
+#engr{
+    float: right;
+    margin: 5px;
+    width: 20vw;
+  }
 /* END RESEARCH PAGE */
 
 /* MEDIA QUERIES */
