@@ -59,7 +59,7 @@ p {
 
 nav{
   background-color: #24526A;
-  height: 50px;
+  height: auto;
 }
 
 #header_nav{
