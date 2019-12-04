@@ -562,6 +562,10 @@ figure {
     margin: 20px 10px;
     width: 80vw;
   }
+	
+  .active-research {
+    flex-direction: column;
+  }
 
 /* DESKTOP VIEW */
 
