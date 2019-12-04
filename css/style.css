@@ -477,7 +477,7 @@ figure {
   }
 
   .active-research .flip-card:focus .flip-card-inner{
-    transform: rotateY(180deg);
+    transform: translateX(-100%) rotateY(180deg);
   }
 
   .active-research .flip-card-front, .flip-card-back{
@@ -512,7 +512,6 @@ figure {
     background-color: transparent;
     width: 800px;
     height: 300px;
-    border: 1px solid white;
     perspective: 100px;
   }
 
@@ -520,7 +519,6 @@ figure {
 .past-research .flip-card h2{
     font-size: 15px;
 }*/
-
 
   .past-research .flip-card-inner{
     position: relative;
@@ -537,7 +535,7 @@ figure {
   }
 
   .past-research .flip-card:focus .flip-card-inner{
-    transform: rotateY(180deg);
+    transform: translateX(-100%) rotateY(180deg);
   }
 
   .past-research .flip-card-front, .flip-card-back{
@@ -619,7 +617,6 @@ figure {
     .past-research .flip-card:hover .flip-card-inner {
     transform: rotateY(0deg);
     }
-
 
     html{scroll-behavior: auto;}
 
