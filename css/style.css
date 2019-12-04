@@ -426,6 +426,12 @@ figure {
   padding: 10px;
 }
 
+.courses-grid{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 10px;
+}
+
 /* END: TEACHING PAGE */
 
 /* START RESEARCH PAGE */
