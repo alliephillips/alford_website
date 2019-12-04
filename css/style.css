@@ -565,6 +565,12 @@ figure {
 	
   .active-research {
     flex-direction: column;
+    max-width: 100vw;
+  }
+	
+  .past-research {
+    flex-direction: column;
+    max-width: 100vw;
   }
 
 /* DESKTOP VIEW */
