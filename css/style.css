@@ -526,7 +526,7 @@ figure {
 /* END RESEARCH PAGE */
 
 /* MEDIA QUERIES */
-media screen and (min-width: 800px){
+@media screen and (min-width: 800px){
   .courses{
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
