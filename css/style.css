@@ -375,7 +375,7 @@ figure {
 }
 
 .courses .flip-card-back{
-  background-color: #7AACBF;
+  background-color: #447b91;
   color: white;
   transform: rotateY(180deg);
 }
@@ -471,7 +471,7 @@ figure {
 
  .active-research .flip-card-back{
     overflow: auto;
-    background-color: #7AACBF;
+    background-color: #447b91;
     color: white;
     transform: rotateY(180deg);
   }
@@ -531,7 +531,7 @@ figure {
 
  .past-research .flip-card-back{
     overflow: auto;
-    background-color: #7AACBF;
+    background-color: #447b91;
     color: white;
     transform: rotateY(180deg);
   }
