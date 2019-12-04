@@ -293,6 +293,18 @@ figure {
   color: #24526A;
 }
 
+.flip-card-back p a:visited{
+  color:white;
+}
+
+.flip-card-back p a{
+  color:white;
+}
+
+.flip-card-back p a:active{
+  color:white;
+}
+
 /* END: LINKS.HTML */
 
 /* BEGINNING: TEACHING PAGE */
@@ -384,6 +396,17 @@ figure {
   overflow: auto;
 }
 
+.flip-card-back p a:visited{
+  color:white;
+}
+
+.flip-card-back p a{
+  color:white;
+}
+
+.flip-card-back p a:active{
+  color:white;
+}
 
 .scale-up-hor-center {
   text-align: center;
@@ -565,12 +588,6 @@ figure {
 	
   .active-research {
     flex-direction: column;
-    max-width: 100vw;
-  }
-	
-  .past-research {
-    flex-direction: column;
-    max-width: 100vw;
   }
 
 /* DESKTOP VIEW */
