@@ -454,7 +454,6 @@ figure {
     background-color: transparent;
     width: 800px;
     height: 300px;
-    border: 1px solid white;
     perspective: 100px;
   }
 /* attempt to change font size on flip card - allie 
