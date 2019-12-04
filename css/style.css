@@ -588,20 +588,36 @@ grid-gap: 10px;
     margin: 20px 10px;
     width: 80vw;
   }
-	
+
   .active-research {
     flex-direction: column;
   }
-	
+
   .past-research {
     flex-direction: column;
   }
 
-  .flip-card {
-     width: 80vw;
+  .active-research .flip-card {
+     width: 300px;
      align-items: center;
      justify-content: center;
-	}	  
+	}
+
+  .active-research .flip-card-inner {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .past-research .flip-card {
+     width: 300px;
+     align-items: center;
+     justify-content: center;
+	}
+
+  .past-research .flip-card-inner {
+    margin-left: 20px;
+    margin-right: 20px;
+  }  
 
 /* DESKTOP VIEW */
 
