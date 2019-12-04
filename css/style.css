@@ -391,6 +391,17 @@ figure {
 	        animation: scale-up-hor-center .7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
+  .caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Montserrat";
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
 /* END: TEACHING PAGE */
 
 /* START RESEARCH PAGE */
