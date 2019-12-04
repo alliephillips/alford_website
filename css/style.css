@@ -532,3 +532,42 @@ figure {
     grid-gap: 15px;
   }
 }
+
+/* REDUCED MOTION */
+@media (prefers-reduced-motion: reduce) {
+
+    .active-research .flip-card:hover .flip-card-inner {
+    transform: rotateY(0deg);
+    }
+
+    .past-research .flip-card:hover .flip-card-inner {
+    transform: rotateY(0deg);
+    }
+
+
+    html{scroll-behavior: auto;}
+
+    .skip a{
+      -webkit-transition: none;
+      transition: none;
+    }
+
+
+    .courses .flip-card-front{
+      background-color: #24526A;
+      color: white;
+      display: none !important;
+    }
+
+    .courses .flip-card-back{
+      background-color: #7AACBF;
+      color: white;
+      display: block !important;
+      transform: rotateY(0deg);
+    }
+
+    .courses .flip-card:hover .flip-card-inner{
+      transform: rotateY(0deg);
+    }
+
+  }
